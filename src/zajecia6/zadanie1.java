@@ -3,6 +3,10 @@ package zajecia6;
 import java.util.Random;
 import java.util.Scanner;
 
+//Zadania Tablicei pętle1.Napisz program symulujący grę w Lotto:a.Użytkownik typuje 6 cyfrb.Program losuje 6 cyfr z liczb od 1 do 49c.
+// Program wypisuje na ekranie wytypowane przez użytkownika cyfryd.
+//Program wypisuje na ekranie wylosowane cyfrye.Program wyświetla wynik użytkownika w poniższej formie:i.Trafiono n z 6 cyfr
+
 public class zadanie1 {
 
     // zad do poprawy zrobic tablice!!
