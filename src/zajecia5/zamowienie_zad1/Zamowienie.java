@@ -45,11 +45,13 @@ public class Zamowienie {
     }
 
     public String toString() {
-        String result = "Zamowienie; ";
+        String result = "Zamowienie: " + "\n";
         for (int i = 0; i < ileDodanych; i++) {
             result += pozycje[i].toString() + "\n"; // "\n" znak nowej linii
         }
         return result;
+
+
 
     }
 }

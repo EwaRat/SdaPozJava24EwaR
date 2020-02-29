@@ -10,18 +10,15 @@ public class zadanie5 {
 
     public static void main(String[] args) {
 
-        String mojaLiczba="5555";
+        String mojaLiczba="55335";
         int suma=0;
         for (int i = 0; i <mojaLiczba.length() ; i++) {
             char c = mojaLiczba.charAt(i);
             String wartosc = String.valueOf(c);
+
             suma = suma + Integer.valueOf(wartosc);
         }
         System.out.println(suma);
-
-
-
-
 
     }
 }
