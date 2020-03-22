@@ -22,7 +22,7 @@ public class Zadanie2 {
         Random rand = new Random();
         for (int i= 0; i < liczby.length; i++) {
             //losujemy liczbe
-            int losowaLiczba = rand.nextInt(49) + 1;
+            int losowaLiczba = rand.nextInt((49) + 1);
             //wpisujemy wylosowana liczbe do tablicy
             liczby[i]=losowaLiczba;
         }
